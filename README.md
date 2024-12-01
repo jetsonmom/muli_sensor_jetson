@@ -1,6 +1,11 @@
 # muli_sensor_jetson
 ##### 2_sensor_main.py는 Grove Dust 센서용 라이브러리, Grove Dust 센서용 라이브러리를 불러와서 센서갑을 알려주는 코드이다.
 ##### dual_sensor_main.py는  CM1106 센서용 라이브러리만 가져오고 미세먼지는 import 안하고, 코드에서 실행한다. 
+회로도.
+
+![image](https://github.com/user-attachments/assets/90e21600-0440-4c88-a5b9-b8f9794743b0)
+
+
 
 CM1106 라이브러리 파일 생성:  1.Grove Dust 센서용 라이브러리 코드를 넣고 저장
 ```
