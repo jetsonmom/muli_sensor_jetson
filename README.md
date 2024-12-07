@@ -97,6 +97,7 @@ class GroveDustSensor:
     def cleanup(self):
         GPIO.cleanup()
 ```
+<b> 미세먼지값이 너무 높아서 레이저 미세먼지센서로 측정한 후 보정을 해보았다. 
 
 3. 두 센서 동시 사용 코드:
 ```python
